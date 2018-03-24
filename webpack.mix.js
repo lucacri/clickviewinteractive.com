@@ -11,8 +11,8 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.sass('src/app.scss', 'public/assets')
-	.setPublicPath('public');
+mix.sass('src/app.scss', 'assets')
+	.setPublicPath('./');
 
 
 mix.browserSync({
@@ -27,7 +27,7 @@ mix.browserSync({
 
 mix.options({
 	purifyCss: {
-		paths: ['public/index.html']
+		paths: ['index.html']
 	}
 });
 
