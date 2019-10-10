@@ -1,5 +1,5 @@
 {
-  "name": "melissamacalister.com",
+  "name": "clickviewinteractive.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,11 +13,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "2.26.7",
-    "browser-sync-webpack-plugin": "2.2.2",
-    "laravel-mix": "2.1.14",
-    "purify-css": "1.2.5",
-    "purifycss-webpack": "0.7.0"
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "laravel-mix": "5.0.0",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.23.0",
+    "sass-loader": "^8.0.0"
   },
   "dependencies": {
     "bulma": "^0.7.0"
