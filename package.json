@@ -20,7 +20,7 @@
     "purifycss-webpack": "0.7.0",
     "resolve-url-loader": "3.1.1",
     "sass": "1.23.7",
-    "sass-loader": "8.0.0"
+    "sass-loader": "13.3.3"
   },
   "dependencies": {
     "bulma": "^0.8.0"
